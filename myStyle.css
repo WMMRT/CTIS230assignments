@@ -1,0 +1,39 @@
+body {
+    color:blue;
+    background-color: orange;
+    font-size:1.3em;
+    font-family:comic, sans-serif, 'times new Roman';
+}
+
+h2 {
+    color: blue;
+    background-color: seashell;
+    width: fit-content;
+    font-weight: 100;
+}
+
+h3{
+    color: navy;
+    font-style:italic;
+}
+
+strong{
+    background-color: white;
+
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:midnightblue;
+}
+
+a:hover{
+    background-color: seashell;
+}
+
+a:active{
+    color: navy;
+}
