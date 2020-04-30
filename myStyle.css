@@ -3,12 +3,17 @@ body {
     background-color: orange;
     font-size:1.3em;
     font-family:comic, sans-serif, 'times new Roman';
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
+h2, h3{
+    font-family: tahoma, serif;
+    font-style: italic;
+    background-color: seashell; 
+    width: fit-content;
+}
 h2 {
     color: blue;
-    background-color: seashell;
-    width: fit-content;
     font-weight: 100;
 }
 
@@ -36,4 +41,30 @@ a:hover{
 
 a:active{
     color: navy;
+}
+
+li strong{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+img#porter{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+/* img#porter:hover{
+    width:45%; 
+
+}
+Experimented with this, but did not like it
+*/
+h2#papertitle{
+    align-content: center;
+}
+
+p.paper{
+    font-size: 1.25em;
+    font-weight: lighter;
+    font-family: Tahoma, serif;
 }
