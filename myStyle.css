@@ -2,7 +2,7 @@ body {
     color: black;
     background-color: orange;
     font-size:1.3em;
-    font-family:comic, sans-serif, 'times new Roman';
+    font-family:comic, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
     
@@ -18,7 +18,7 @@ p {
 
 p#specialp{
     font-size: 1.5em;
-    font-family: monospace,serif;
+    font-family: monospace,sans-serif;
 }
 
 
@@ -32,11 +32,15 @@ div.nav{
     border-style: groove;
     background-color: skyblue;
     font-style: normal;
-    font-family: tahoma, serif;
+    font-family: tahoma, sans-serif;
     margin-top: 2.5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
     justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
     
 }
 
@@ -48,7 +52,7 @@ section{
     margin-bottom: 2%;
 }
 h2, h3{
-    font-family: tahoma, serif;
+    font-family: tahoma, sans-serif;
     font-style: italic;
     background-color: seashell; 
     display: block;
@@ -121,5 +125,5 @@ img#endofsemester{
 p.paper{
     font-size: 1.25em;
     font-weight: lighter;
-    font-family: Tahoma, serif;
+    font-family: Tahoma, sans-serif;
 }
