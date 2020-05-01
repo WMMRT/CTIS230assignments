@@ -1,16 +1,60 @@
 body {
-    color:blue;
+    color: black;
     background-color: orange;
     font-size:1.3em;
     font-family:comic, sans-serif, 'times new Roman';
     margin-left: 10%;
     margin-right: 10%;
+    
+}
+div.flexible{
+    display: flex;
+}
+
+p {
+
+    padding: 5%;
+}
+
+p#specialp{
+    font-size: 1.5em;
+    font-family: monospace,serif;
+}
+
+
+ul, li{
+    
+    margin: 1%;
+    
+}
+
+div.nav{
+    border-style: groove;
+    background-color: skyblue;
+    font-style: normal;
+    font-family: tahoma, serif;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    
+}
+
+section{
+    background-color: seashell;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 h2, h3{
     font-family: tahoma, serif;
     font-style: italic;
     background-color: seashell; 
-    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 h2 {
     color: blue;
@@ -35,9 +79,11 @@ a:visited{
     color:midnightblue;
 }
 
-a:hover{
+/*a:hover{
     background-color: seashell;
 }
+    Didn't like it when changed to flexbox navigation
+*/
 
 a:active{
     color: navy;
@@ -61,6 +107,14 @@ Experimented with this, but did not like it
 */
 h2#papertitle{
     align-content: center;
+}
+
+img#endofsemester{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    width: 40%;
 }
 
 p.paper{
