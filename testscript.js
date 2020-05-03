@@ -22,7 +22,7 @@ myitem = document.getElementById("firsttest");
     otheritem = document.getElementById("buttontest");
 
     thebutton.addEventListener("click", onButtonClick);
-
+//this changes the li to the color red when the button is clicked
     function onButtonClick() {  
         otheritem.style.color = "red";  
     }
@@ -31,7 +31,18 @@ myitem = document.getElementById("firsttest");
     textentry = document.getElementById("myinput");  
     textentry.addEventListener("change", onChange);
 
+    //changes the li to whatever is inputed
     function onChange() {  
         newtext = myinput.value;  
         otheritem.innerHTML = newtext;  
+    }
+
+    //Additional user interaction with image on about us
+//this event listener listens for a click on the image, and runs function below
+    imagetest = document.getElementById("endofsemester");
+    imagetest.addEventListener("click", onImageClick);
+
+//this function makes the image bigger
+    function onImageClick() {
+        imagetest.style.width ="100%";
     }
