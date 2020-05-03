@@ -43,7 +43,10 @@ div.nav{
     padding-left: 10%;
     
 }
+input{
+    margin: 5%;
 
+}
 section{
     background-color: seashell;
     margin-top: 2%;

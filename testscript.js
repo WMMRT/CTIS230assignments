@@ -16,3 +16,22 @@ myitem = document.getElementById("firsttest");
         myitem.style.color = "";
         myitem.style.fontWeight = "";
     }
+
+    //about us button script
+    thebutton = document.getElementById("thebutton");  
+    otheritem = document.getElementById("buttontest");
+
+    thebutton.addEventListener("click", onButtonClick);
+
+    function onButtonClick() {  
+        otheritem.style.color = "red";  
+    }
+
+    //user input script
+    textentry = document.getElementById("myinput");  
+    textentry.addEventListener("change", onChange);
+
+    function onChange() {  
+        newtext = myinput.value;  
+        otheritem.innerHTML = newtext;  
+    }
