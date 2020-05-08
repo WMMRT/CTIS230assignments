@@ -9,6 +9,10 @@ body {
     
 }
 
+img#bibimage{
+    width: 100px;
+}
+
 @media  (max-width: 700px)
 
 {
@@ -21,9 +25,7 @@ body {
         
     }
 
-    body#citation{
-        padding-bottom: 10%;
-    }
+   
     div.flexible{
 
         flex-direction: column;
@@ -35,9 +37,11 @@ body {
     
     }
     section{
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+        margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    } 
 
     div#bibliography{
         width: 200px;
