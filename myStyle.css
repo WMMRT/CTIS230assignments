@@ -8,12 +8,24 @@ body {
     
 }
 
-@media only screen and (max-width: 400px)
+@media  (max-width: 700px)
 
 {
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 100%;
+        
+
+        
+    }
+
+    body#citation{
+        padding-bottom: 10%;
+    }
     div.flexible{
 
-        flex-direction: row;
+        flex-direction: column;
     }
     div.nav{
         padding-left: 1%;
@@ -26,6 +38,42 @@ body {
         margin-right: 1%;
     }
 
+    div#bibliography{
+        width: 200px;
+        padding: 2%;
+        text-align: left;
+    }
+
+    section{
+        margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    } 
+   
+
+   
+}
+
+@media all and (orientation:portrait)
+{
+    div.flexible{
+
+        flex-direction: column;}
+
+        body{
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-bottom: 100%;
+            
+    
+            
+        }
+
+
+        ul{
+            width: 200px;
+        }
 }
 
 div.flexible{
